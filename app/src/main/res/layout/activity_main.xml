@@ -14,11 +14,20 @@
         android:text="Crafty Pictures"
         android:textSize="40sp"
         android:textStyle="bold" />
-
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationEditText"
+        android:layout_above="@+id/startButton"
+        android:layout_marginBottom="10dp"
+        android:padding="15dp"
+        android:hint="Please enter your name"
+        android:layout_centerHorizontal="true" />
     <Button
         android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingTop="25dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:text="START"
