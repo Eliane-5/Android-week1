@@ -24,7 +24,7 @@ public class ChoiceActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String userName = intent.getStringExtra("userName");
-        mUserNameTextView.setText("Hello "+  userName +", Please select a button to choose the type of pictures you would like to browse:");
+        mUserNameTextView.setText("Hello "+  userName +" have fun!");
 
         mblackAndWhiteButton.setOnClickListener(new View.OnClickListener() {
             @Override
