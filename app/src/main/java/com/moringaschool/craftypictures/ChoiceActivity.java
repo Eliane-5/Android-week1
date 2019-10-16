@@ -17,7 +17,7 @@ public class ChoiceActivity extends AppCompatActivity {
     @BindView(R.id.blackAndWhite) Button mblackAndWhiteButton;
     @BindView(R.id.colorful) Button mColorfulButton;
 
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
